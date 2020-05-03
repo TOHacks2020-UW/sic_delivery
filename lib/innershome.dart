@@ -10,6 +10,7 @@ class Home extends StatelessWidget {
       // Add Nancys home screen design
       appBar: AppBar(
         backgroundColor: Colors.green[400],
+        elevation: 0.0,
         actions: <Widget>[
           FlatButton.icon(
             icon: Icon(Icons.person),
