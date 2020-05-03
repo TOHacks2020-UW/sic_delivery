@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'auth.dart';
-import './addList.dart';
+import 'package:sic_delivery/addList.dart';
 
 class Home extends StatelessWidget {
   final Authentication _auth = Authentication();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[50],
       // Add Nancys home screen design
       appBar: AppBar(
+        backgroundColor: Colors.green[400],
         actions: <Widget>[
           FlatButton.icon(
             icon: Icon(Icons.person),
@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: addList,
+        child: AddList(),
       ),
     );
   }
