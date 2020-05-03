@@ -60,6 +60,27 @@ class AddList extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
+            Container(
+              padding: EdgeInsets.only(left: 70, right: 70),
+              child: FlatButton(
+                onPressed: () {},
+                color: Colors.orange[400],
+                child: Container(
+                  padding: EdgeInsets.all(20),
+                  child: Text(
+                    'ADD',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontFamily: 'roboto',
+                      fontWeight: FontWeight.w900,
+                      fontSize: 13,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
