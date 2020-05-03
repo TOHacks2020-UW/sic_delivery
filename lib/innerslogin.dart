@@ -21,5 +21,6 @@ class _LoginState extends State<Login> {
     }
     else {
       return Register(toggleView: toggleView);
+    }
   }
 }
