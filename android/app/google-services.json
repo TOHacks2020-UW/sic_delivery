@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84231900983",
+    "firebase_url": "https://sic-delivery.firebaseio.com",
+    "project_id": "sic-delivery",
+    "storage_bucket": "sic-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84231900983:android:9b168590af99d1409e14b2",
+        "android_client_info": {
+          "package_name": "com.example.sic_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84231900983-8qc7fv7fmskcel0q386ovnh3121gblrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb38FKxtOKuK1mBDNoU84LDgfCQcTVpQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84231900983-8qc7fv7fmskcel0q386ovnh3121gblrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
