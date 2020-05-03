@@ -3,6 +3,7 @@ import 'package:sic_delivery/auth.dart';
 import 'package:sic_delivery/wrapper.dart';
 import 'package:provider/provider.dart';
 import 'user.dart';
+import 'package:sic_delivery/innershome.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return StreamProvider<User>.value(
       value: Authentication().user,
       child: MaterialApp(
-        home: Wrapper(),
+        home: Home(),
       ),
     );
   }

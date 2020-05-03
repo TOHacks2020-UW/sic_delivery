@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:sic_delivery/sign_in.dart';
 
 class AddList extends StatelessWidget {
   AddList();
@@ -17,7 +18,7 @@ class AddList extends StatelessWidget {
               'Enter your list',
               textAlign: TextAlign.left,
               style: TextStyle(
-                fontFamily: 'roboto', //'Comfortaa',
+                fontFamily: 'roboto',
                 fontWeight: FontWeight.bold,
                 fontSize: 40.0,
                 color: Colors.black,
@@ -32,7 +33,12 @@ class AddList extends StatelessWidget {
             Container(
               padding: EdgeInsets.only(left: 70, right: 70),
               child: FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SignIn()),
+                  );
+                },
                 color: Colors.orange[400],
                 child: Container(
                   padding: EdgeInsets.all(20),
@@ -87,3 +93,4 @@ class AddList extends StatelessWidget {
     );
   }
 }
+
